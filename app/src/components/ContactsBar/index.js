@@ -1,6 +1,6 @@
 import React from 'react';
 import UserModel from '../UserModel';
-import 'styles.css';
+import './styles.css';
 
 const ContactsBar = ()  => {
   return (

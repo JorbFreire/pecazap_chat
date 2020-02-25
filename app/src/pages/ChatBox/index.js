@@ -1,6 +1,6 @@
 import React from 'react';
 import CommunicationChannels from '../../components/CommunicationChannels';
-import 'styles.css';
+import './styles.css';
 
 const ChatBox = () => {
   return (
