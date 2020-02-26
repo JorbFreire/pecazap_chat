@@ -1,0 +1,40 @@
+{
+  "user": {
+    "user_id": 1,
+    "user_name": "My Name",
+    "company": "My company name",
+    "user_profile_photo_url": "www.photo.com"
+  },
+  "contacts": [
+    {
+      "user_id": 1,
+      "user_name": "My Name",
+      "company": "My company name",
+      "user_profile_photo_url": "www.photo.com"
+    },
+    {
+      "user_id": 2,
+      "user_name": "My Name",
+      "company": "My company name",
+      "user_profile_photo_url": "www.photo.com"
+    },
+    {
+      "user_id": 3,
+      "user_name": "My Name",
+      "company": "My company name",
+      "user_profile_photo_url": "www.photo.com"
+    },
+    {
+      "user_id": 4,
+      "user_name": "My Name",
+      "company": "My company name",
+      "user_profile_photo_url": "www.photo.com"
+    },
+    {
+      "user_id": 5,
+      "user_name": "My Name",
+      "company": "My company name",
+      "user_profile_photo_url": "www.photo.com"
+    }
+  ]
+}
