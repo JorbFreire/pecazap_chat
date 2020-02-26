@@ -1,0 +1,32 @@
+.User {
+  background: rgba(0, 0, 0, 0.08);;
+  padding: 10px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.User .UserProfilePhoto {
+  width: 48px;
+  height: 48px;
+
+  margin-left: 15px;
+}
+
+.User .UserInfo {
+  margin-left: 10px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.User .UserInfo p{
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.User .UserInfo sub{
+  font-size: 14px;
+  color: #7ed5e9;
+}

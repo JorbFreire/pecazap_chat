@@ -1,0 +1,9 @@
+.ChatBoxPage {
+  margin-top: 10px;
+  
+  height: calc(100% - 10px);
+  display: flex;
+  flex-direction: row;
+
+  border-radius: 20px 0px 0px 0px;
+}

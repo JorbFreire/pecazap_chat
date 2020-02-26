@@ -1,0 +1,16 @@
+.ContactsBar {
+  display: flex;
+  flex-direction: column;
+}
+
+.ContactsBar .searchForContacts input {
+  width: 280px;
+  height: 38px;
+
+  margin-left: 15px;
+  margin-right: 15px;
+
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+}

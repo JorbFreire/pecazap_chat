@@ -5,8 +5,8 @@ const TolsBar = () => {
   return (
     <div className="TolsBar">
       <input type="text"/>
-      <button>TRANSFERIR</button>
-      <button>FINALIZAR ATENDIMENTO</button>
+      <button className="transferButton">TRANSFERIR</button>
+      <button className="finishButton">FINALIZAR ATENDIMENTO</button>
     </div>
   )
 }

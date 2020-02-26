@@ -5,9 +5,9 @@ const UserModel = () => {
   return (
     <div className="User">
       <img src="" alt="UserProfilePhoto"/>
-      <div className="userInfo">
+      <div className="UserInfo">
         <p>My Name</p>
-        <p>My Company</p>
+        <sub>My Company</sub>
       </div>
     </div>
   )

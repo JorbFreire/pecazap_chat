@@ -6,17 +6,19 @@ const ContactInfoModel = () => {
   return (
     <div className="ContactInfo">
       <UserModel />
-      <div className="tols">
-        <button>EDIT</button>
-        <button>DELETE</button>
+      <div className="tools">
+        <div className="buttons">
+          <button>EDIT</button>
+          <button>DELETE</button>
+        </div>
         <div className="lastConversations">
-          <p>Ultimas conversas</p>
+          <span>Ultimas conversas</span>
           <p>xx/xx/xxxx (xx dias atrás) </p>
           <p>xx/xx/xxxx (xx dias atrás) </p>
           <p>xx/xx/xxxx (xx dias atrás) </p>
         </div>
         <div className="observations">
-          <p>OBSERVAÇÕES</p>
+          <span>OBSERVAÇÕES</span>
           <p></p>
         </div>
       </div>
