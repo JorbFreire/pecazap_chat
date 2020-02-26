@@ -7,20 +7,25 @@ const ContactInfoModel = () => {
     <div className="ContactInfo">
       <UserModel />
       <div className="tools">
-        <div className="buttons">
+        
+        <section className="buttons">
           <button>EDIT</button>
+          <div />
           <button>DELETE</button>
-        </div>
-        <div className="lastConversations">
-          <span>Ultimas conversas</span>
+        </section>
+
+        <section className="lastConversations">
+          <span>ÚLTIMAS CONVERSAS</span>
           <p>xx/xx/xxxx (xx dias atrás) </p>
           <p>xx/xx/xxxx (xx dias atrás) </p>
           <p>xx/xx/xxxx (xx dias atrás) </p>
-        </div>
-        <div className="observations">
+        </section>
+
+        <section className="observations">
           <span>OBSERVAÇÕES</span>
           <p></p>
-        </div>
+        </section>
+      
       </div>
     </div>
   )

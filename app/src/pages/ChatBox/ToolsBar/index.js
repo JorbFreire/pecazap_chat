@@ -1,9 +1,9 @@
 import React from 'react';
 import './styles.css';
 
-const TolsBar = () => {
+const ToolsBar = () => {
   return (
-    <div className="TolsBar">
+    <div className="ToolsBar">
       <input type="text"/>
       <button className="transferButton">TRANSFERIR</button>
       <button className="finishButton">FINALIZAR ATENDIMENTO</button>
@@ -11,4 +11,4 @@ const TolsBar = () => {
   )
 }
 
-export default TolsBar;
+export default ToolsBar;

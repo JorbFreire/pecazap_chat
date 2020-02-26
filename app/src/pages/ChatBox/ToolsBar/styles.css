@@ -1,8 +1,8 @@
-.TolsBar {
+.ToolsBar {
   background-color: #ffffff;
 }
 
-.TolsBar input {
+.ToolsBar input {
   margin: 13px 0 13px 20px;
 
   height: 38px;
@@ -13,7 +13,7 @@
   border-radius: 4px;
 }
 
-.TolsBar .transferButton {
+.ToolsBar .transferButton {
   height: 38px;
   width: 140px;
 
@@ -28,7 +28,7 @@
   font-size: 15px;
 }
 
-.TolsBar .finishButton {
+.ToolsBar .finishButton {
   height: 38px;
   width: 140px;
 
