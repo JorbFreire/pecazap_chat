@@ -1,9 +1,9 @@
 {
   "user": {
     "user_id": 1,
-    "user_name": "My Name",
-    "company": "My company name",
-    "user_profile_photo_url": "https://imgur.com/zHGqdSZ"
+    "user_name": "Carlos Corrêa",
+    "company": "Premium peças",
+    "profile_photo_url": "https://i.imgur.com/zHGqdSZ.png"
   },
   "contacts": [
     {

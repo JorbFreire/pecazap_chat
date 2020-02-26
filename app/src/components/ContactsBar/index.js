@@ -6,7 +6,7 @@ import api from '../../services/api.json';
 import './styles.css';
 
 const ContactsBar = ()  => {
-  const [userData, setUserData] = useState();
+  const [userData, setUserData] = useState({});
   const [contactsListData, setContactsListData] = useState([]);
   useEffect ( () => {
     setUserData(api.user);
@@ -15,7 +15,11 @@ const ContactsBar = ()  => {
   return (
     <div className="ContactsBar">
       <div className="user">
-        <UserModel name="My name is"/>
+        <UserModel 
+          name={userData.user_name}
+          company={userData.company}
+          profile_photo_url={userData.profile_photo_url}
+        />
       </div>
       <div className="searchForContacts">
         <input type="text"/>
