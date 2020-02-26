@@ -2,7 +2,7 @@ import React from 'react';
 
 import CommunicationChannels from '../../components/CommunicationChannels';
 import ContactInfoModel from '../../components/ContactInfoModel';
-import TolsBar from './TolsBar';
+import ToolsBar from './ToolsBar';
 import './styles.css';
 
 const ChatBox = () => {
@@ -10,7 +10,7 @@ const ChatBox = () => {
     <div className="ChatBoxPage">
       <CommunicationChannels />
       <div className="ChatBox">
-        <TolsBar />
+        <ToolsBar />
         <p>sometext</p>
       </div>
       <ContactInfoModel />
