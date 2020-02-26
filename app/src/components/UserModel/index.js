@@ -2,13 +2,13 @@ import React from 'react';
 import UserProfilePhoto from '../../assets/profile_img.png';
 import './styles.css';
 
-const UserModel = () => {
+const UserModel = (props) => {
   return (
     <div className="User">
-      <img src={UserProfilePhoto} alt="UserProfilePhoto"/>
+      <img src={props.profile_photo_url} alt="UserProfilePhoto"/>
       <div className="UserInfo">
-        <p>My Name</p>
-        <sub>My Company</sub>
+        <p>{props.name}</p>
+        <sub>{props.company}</sub>
       </div>
     </div>
   )

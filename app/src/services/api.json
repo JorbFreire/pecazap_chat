@@ -3,38 +3,38 @@
     "user_id": 1,
     "user_name": "My Name",
     "company": "My company name",
-    "user_profile_photo_url": "www.photo.com"
+    "user_profile_photo_url": "https://imgur.com/zHGqdSZ"
   },
   "contacts": [
     {
       "user_id": 1,
-      "user_name": "My Name",
-      "company": "My company name",
-      "user_profile_photo_url": "www.photo.com"
+      "user_name": "João da Silva",
+      "company": "ACME INC",
+      "profile_photo_url": "https://i.imgur.com/zHGqdSZ.png"
     },
     {
       "user_id": 2,
-      "user_name": "My Name",
-      "company": "My company name",
-      "user_profile_photo_url": "www.photo.com"
+      "user_name": "Nome do Usuário",
+      "company": "EMPRESA",
+      "profile_photo_url": "https://i.imgur.com/zHGqdSZ.png"
     },
     {
       "user_id": 3,
-      "user_name": "My Name",
-      "company": "My company name",
-      "user_profile_photo_url": "www.photo.com"
+      "user_name": "Nome do Usuário",
+      "company": "EMPRESA",
+      "profile_photo_url": "https://i.imgur.com/zHGqdSZ.png"
     },
     {
       "user_id": 4,
-      "user_name": "My Name",
-      "company": "My company name",
-      "user_profile_photo_url": "www.photo.com"
+      "user_name": "Nome do Usuário",
+      "company": "EMPRESA",
+      "profile_photo_url": "https://i.imgur.com/zHGqdSZ.png"
     },
     {
       "user_id": 5,
-      "user_name": "My Name",
-      "company": "My company name",
-      "user_profile_photo_url": "www.photo.com"
+      "user_name": "Nome do Usuário",
+      "company": "EMPRESA",
+      "profile_photo_url": "https://i.imgur.com/zHGqdSZ.png"
     }
   ]
 }
