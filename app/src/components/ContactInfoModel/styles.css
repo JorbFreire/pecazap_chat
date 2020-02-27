@@ -1,11 +1,37 @@
+.ContactInfo {
+  width: 296px;
+  
+  background-color: #ffffff;
+  box-shadow: -4px 0px 2px rgba(0, 0, 0, 0.02);
+}
+
+.ContactInfo .User {
+  margin: 9px 0 9px 5px;
+}
+
+.ContactInfo .User .UserInfo p{
+  color: #222222;
+}
+
+.ContactInfo .User .UserInfo sub{
+  color: #79accd;
+}
+
+
 .ContactInfo .tools {
   display: flex;
   flex-direction: column;
 }
 
+.ContactInfo .tools section {
+  margin: 0 20px 30px 20px;
+}
+
 .ContactInfo .tools .buttons {
   display: flex;
   flex-direction: row;
+
+  margin-bottom: 21px;
 }
 
 .tools .buttons button {
@@ -19,7 +45,12 @@
   border-radius: 4px;
 }
 
+.tools .buttons div {
+  width: 10px;
+}
+
 .tools span {
-  color: #8FBAD6;
+  color: #79accd;
   font-weight: bold;
+  font-size: 12px;
 }

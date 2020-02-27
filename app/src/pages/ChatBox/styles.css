@@ -1,7 +1,10 @@
 .ChatBoxPage {
+  background-color: #E5E5E5;
+
+  width: calc( 100% );
+  height: calc(100% - 10px);
   margin-top: 10px;
   
-  height: calc(100% - 10px);
   display: flex;
   flex-direction: row;
 

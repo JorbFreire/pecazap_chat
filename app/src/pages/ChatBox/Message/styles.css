@@ -1,0 +1,4 @@
+.messageBlock {
+  display: flex;
+  flex-direction: row;
+}
