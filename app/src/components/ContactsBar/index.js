@@ -11,11 +11,11 @@ const ContactsBar = ()  => {
       <div className="searchForContacts">
         <input type="text"/>
       </div>
-      <div className="contacts">
+      <nav className="contacts">
         <UserModel />
         <UserModel />
         <UserModel />
-      </div>
+      </nav>
     </div>
   );
 }
