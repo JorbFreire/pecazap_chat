@@ -1,7 +1,28 @@
-import React from 'react';
+import React, { useState } from 'react';
+import api from '../../../services/api.json';
 import './styles.css';
 
-const Message = () => {
+const Message = (props) => {
+  
+  function howSentThisMessage(client_id){
+    let user;
+    switch (props.send_by){
+      case "attendant":{
+        user = api.user.user_name;
+        break;
+      }
+      case "client": {
+        user = api.contacts[client_id].user_name;
+        break;
+      }
+      default: {
+        user = "none";
+        break;
+      }
+    }
+    return user;
+  }
+
   return (
     <div className="messageLine">
       <div className="messageBlock">
@@ -10,13 +31,13 @@ const Message = () => {
           <img src="" alt="profilePhoto"/>
 
           <span>
-            <strong>User Name </strong>
-            <time> - xx/xx/xxxx xxhxx </time> 
+            <strong>{ howSentThisMessage(props.client_id) }</strong>
+            <time> - {props.date} {props.time} </time> 
           </span>
           
           <img src="" alt="checkread"/>
         </section>
-        <p>a message</p>
+        <p>{props.content}</p>
       
       </div>
     </div>

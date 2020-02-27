@@ -1,6 +1,6 @@
 {
   "user": {
-    "user_id": 1,
+    "user_id": 0,
     "user_name": "Carlos Corrêa",
     "company": "Premium peças",
     "profile_photo_url": "https://i.imgur.com/zHGqdSZ.png"
@@ -35,6 +35,26 @@
       "user_name": "Nome do Usuário",
       "company": "EMPRESA",
       "profile_photo_url": "https://i.imgur.com/zHGqdSZ.png"
+    }
+  ],
+  "chat": [
+    {
+      "send_by": "client",
+      "date": "xx/xx/xxxx",
+      "time": "xxhyy",
+      "content": "this is  a message1"
+    },
+    {
+      "send_by": "attendant",
+      "date": "xx/xx/xxxx",
+      "time": "xxhxx",
+      "content": "this is  a message2"
+    },
+    {
+      "send_by": "client",
+      "date": "xx/xx/xxxx",
+      "time": "xxhxx",
+      "content": "this is  a message3"
     }
   ]
 }
