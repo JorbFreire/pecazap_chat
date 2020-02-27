@@ -1,4 +1,4 @@
-import React, { useState, useEffec, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import UserModel from '../UserModel';
 
 import api from '../../services/api.json';
@@ -8,10 +8,12 @@ import './styles.css';
 const ContactsBar = ()  => {
   const [userData, setUserData] = useState({});
   const [contactsListData, setContactsListData] = useState([]);
+
   useEffect ( () => {
     setUserData(api.user);
     setContactsListData(api.contacts);
   }, [] );
+  
   return (
     <div className="ContactsBar">
       <div className="user">

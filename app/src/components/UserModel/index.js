@@ -1,5 +1,4 @@
 import React from 'react';
-import UserProfilePhoto from '../../assets/profile_img.png';
 import './styles.css';
 
 const UserModel = (props) => {
