@@ -26,10 +26,10 @@ const ChatBox = () => {
           {
             messages.map(e => (
               <Message
-                send_by = {e.send_by}
-                date    = {e.date}
-                time    = {e.time}
-                content = {e.content}
+                send_by   = {e.send_by}
+                date      = {e.date}
+                time      = {e.time}
+                content   = {e.content}
                 client_id = {0}
               />
             ))
