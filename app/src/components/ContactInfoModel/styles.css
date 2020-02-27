@@ -9,6 +9,15 @@
   margin: 9px 0 9px 5px;
 }
 
+.ContactInfo .User .UserInfo p{
+  color: #222222;
+}
+
+.ContactInfo .User .UserInfo sub{
+  color: #79accd;
+}
+
+
 .ContactInfo .tools {
   display: flex;
   flex-direction: column;
