@@ -11,11 +11,11 @@ import './styles.css';
 
 const ChatBox = () => {
   const [messages, setMessages] = useState([]);
-  //usar props e super pra tornar o className das mensagens dinamico e alterar tanto as informações de destinatario quanto a cor do background e o posicionamento das mensagens 
 
   useEffect(() => {
     setMessages(api.chat);
   }, []);
+  
   return (
     <div className="ChatBoxPage">
       <CommunicationChannels />
