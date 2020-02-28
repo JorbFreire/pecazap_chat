@@ -22,6 +22,7 @@ const ChatBox = () => {
       <div className="ChatBox">
 
         <ToolsBar />
+        <div className="scroll">
           <section cclassName="messages">
             {
               messages.map(e => (
@@ -35,6 +36,7 @@ const ChatBox = () => {
               ))
             }
           </section>
+        </div>
 
         <form className="newMessage">
           <input

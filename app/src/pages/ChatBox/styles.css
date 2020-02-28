@@ -11,6 +11,11 @@
   border-radius: 20px 0px 0px 0px;
 }
 
+.scroll {
+  max-height: calc(100% - 64px - 64px);
+  overflow: auto;
+}
+
 .ChatBox .messages {
   height: calc(100% - 64px - 64px);
 }
