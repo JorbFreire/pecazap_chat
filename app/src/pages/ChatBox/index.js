@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import ReactShadowScroll from 'react-shadow-scroll';
 
 import CommunicationChannels from '../../components/CommunicationChannels';
 import ContactInfoModel from '../../components/ContactInfoModel';
@@ -20,24 +21,27 @@ const ChatBox = () => {
     <div className="ChatBoxPage">
       <CommunicationChannels />
       <div className="ChatBox">
-        <ToolsBar />
 
-        <section className="messages">
-          {
-            messages.map(e => (
-              <Message
-                send_by   = {e.send_by}
-                date      = {e.date}
-                time      = {e.time}
-                content   = {e.content}
-                client_id = {0}
-              />
-            ))
-          }
-        </section>
+        <ToolsBar />
+          <section cclassName="messages">
+            {
+              messages.map(e => (
+                <Message
+                  send_by   = {e.send_by}
+                  date      = {e.date}
+                  time      = {e.time}
+                  content   = {e.content}
+                  client_id = {0}
+                />
+              ))
+            }
+          </section>
 
         <form className="newMessage">
-          <input type="text"/>
+          <input
+            type="text"
+            placeholder="Digite sua mensagem..."
+          />
         </form>
 
       </div>

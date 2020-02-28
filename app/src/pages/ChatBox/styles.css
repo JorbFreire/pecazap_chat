@@ -21,3 +21,11 @@
   background: #FFFFFF;
   box-shadow: 0px -1px 0px rgba(0, 0, 0, 0.05);
 }
+
+.ChatBox .newMessage input {
+  width: 478px;
+  height: 16px;
+
+  margin: 24px 30px 24px 30px;
+  border: 0;
+}
