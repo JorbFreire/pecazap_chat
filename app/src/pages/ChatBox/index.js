@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import ReactShadowScroll from 'react-shadow-scroll';
 
 import CommunicationChannels from '../../components/CommunicationChannels';
 import ContactInfoModel from '../../components/ContactInfoModel';
