@@ -1,19 +1,30 @@
-.messageLine {
-  background-color: darkmagenta;
-
+.MessageElement {
   display: flex;
   flex-direction: column;
 }
 
-.messageLine .messageBlock {
-  background-color: darkgreen;
+.MessageElement .messageLine {
+  display: flex;
+  flex-direction: column;
 
+  margin: 0 20px 20px 20px;
+}
+
+.MessageElement .messageLine .messageBlock {
   display: flex;
   flex-direction: column;
 }
 
 .messageBlock .aboutThisMessage {
-  background-color: darkorange;
   display: flex;
   flex-direction: row;
+}
+
+.messageBlock .content p {
+  max-width: 600px;
+
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+
+  font-size: 15px;
 }

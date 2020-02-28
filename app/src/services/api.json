@@ -42,19 +42,19 @@
       "send_by": "client",
       "date": "xx/xx/xxxx",
       "time": "xxhyy",
-      "content": "this is  a message1"
+      "content": "Quisque enim purus, hendrerit et volutpat viverra, faucibus non neque. Suspendisse quis arcu lacus. Sed tincidunt dui at leo laoreet, vel suscipit mauris dignissim. Phasellus ullamcorper orci ac lorem ultrices, ac fringilla nisi bibendum. Integer quis aliquam massa, vitae condimentum lorem. Suspendisse scelerisque cursus nisl non pulvinar. Donec at varius nulla. Praesent volutpat, nibh ac volutpat pharetra, sapien sapien scelerisque sapien, id vehicula nibh elit in velit."
     },
     {
       "send_by": "attendant",
       "date": "xx/xx/xxxx",
       "time": "xxhxx",
-      "content": "this is  a message2"
+      "content": "Quisque enim purus, hendrerit et volutpat viverra, faucibus non neque. Suspendisse quis arcu lacus. Sed tincidunt dui at leo laoreet, vel suscipit mauris dignissim. Phasellus ullamcorper orci ac lorem ultrices, ac fringilla nisi bibendum. Integer quis aliquam massa, vitae condimentum lorem. Suspendisse scelerisque cursus nisl non pulvinar. Donec at varius nulla. Praesent volutpat, nibh ac volutpat pharetra, sapien sapien scelerisque sapien, id vehicula nibh elit in velit."
     },
     {
       "send_by": "client",
       "date": "xx/xx/xxxx",
       "time": "xxhxx",
-      "content": "this is  a message3"
+      "content": "Quisque enim purus, hendrerit et volutpat viverra, faucibus non neque. Suspendisse quis arcu lacus. Sed tincidunt dui at leo laoreet, vel suscipit mauris dignissim?"
     }
   ]
 }

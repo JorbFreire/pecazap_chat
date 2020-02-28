@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import api from '../../../services/api.json';
+
 import './styles.css';
+import './stylesForSend_by.css'
 
 const Message = (props) => {
   
@@ -24,21 +26,32 @@ const Message = (props) => {
   }
 
   return (
-    <div className="messageLine">
-      <div className="messageBlock">
+    <div className="MessageElement">
+      <div className="messageLine">
+        <div className="messageBlock" id={props.send_by}>
 
-        <section className="aboutThisMessage">
-          <img src="" alt="profilePhoto"/>
+          <section className="aboutThisMessage">
 
-          <span>
-            <strong>{ howSentThisMessage(props.client_id) }</strong>
-            <time> - {props.date} {props.time} </time> 
-          </span>
+            <img src="" alt="profilePhoto"/>
+
+            <span>
+              <strong>{ howSentThisMessage(props.client_id) }</strong>
+              <time> - {props.date} {props.time} </time> 
+            </span>
+            
+            <img src="" alt="checkread"/>
           
-          <img src="" alt="checkread"/>
-        </section>
-        <p>{props.content}</p>
-      
+          </section>
+
+          <section className="arrowAlign">
+            <div className="arrow" />
+          </section>
+          
+          <section className="content">
+            <p>{props.content}</p>
+          </section>
+        
+        </div>
       </div>
     </div>
   );

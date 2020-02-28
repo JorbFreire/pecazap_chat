@@ -1,0 +1,53 @@
+#client .arrow {
+    position: relative;
+    top: 0; 
+    left: 0;
+    border-top: 16px solid #E5E5E5;
+    border-left: 16px solid #ffffff;
+    width: 0;
+}
+
+#client .content {
+  display: flex;
+  flex-direction: row;
+}
+
+#client p {
+  background-color: #ffffff;
+  border-radius: 0px 10px 10px 10px;
+}
+
+
+#attendant .aboutThisMessage {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#attendant .aboutThisMessage span {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#attendant .arrowAlign {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.messageLine #attendant .arrow {
+  position: relative;
+  top: 0; 
+  left: 0;
+  border-top: 16px solid #E5E5E5;
+  border-right: 16px solid #d1fadf;
+  width: 0;
+}
+
+#attendant .content {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#attendant p {
+  background-color: #d1fadf;
+  border-radius: 10px 0px 10px 10px;
+}
