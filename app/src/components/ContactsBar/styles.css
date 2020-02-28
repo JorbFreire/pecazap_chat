@@ -3,7 +3,7 @@
   flex-direction: column;
 }
 
-.ContactsBar .searchForContacts input {
+.ContactsBar .contactsManagement input {
   width: 280px;
   height: 38px;
 
@@ -11,6 +11,6 @@
   margin-right: 15px;
 
   background: rgba(255, 255, 255, 0.15);
-  border: 1px solid rgba(0, 0, 0, 0.05);
+  border: 1px solid #158477;
   border-radius: 4px;
 }
