@@ -18,23 +18,23 @@
 }
 
 
-.ContactInfo .tools {
+.ContactInfo .info {
   display: flex;
   flex-direction: column;
 }
 
-.ContactInfo .tools section {
+.ContactInfo .info section {
   margin: 0 20px 30px 20px;
 }
 
-.ContactInfo .tools .buttons {
+.ContactInfo .info .buttons {
   display: flex;
   flex-direction: row;
 
   margin-bottom: 21px;
 }
 
-.tools .buttons button {
+.info .buttons button {
   height: 37px;
   width: 123px;
 
@@ -43,13 +43,28 @@
   box-sizing: border-box;
   box-shadow: 0px 1px 0px #E5E5E5;
   border-radius: 4px;
+
+  font-family: FontAwesome;
+  font-size: 15px;
 }
 
-.tools .buttons div {
+.info .buttons .edit {
+  color: #00A7CF;
+}
+
+.info .buttons .delete {
+ color: #E33E1A;
+}
+
+.info .buttons div {
   width: 10px;
 }
 
-.tools span {
+.info .lastConversations p {
+  font-size: 15px;
+}
+
+.info span {
   color: #79accd;
   font-weight: bold;
   font-size: 12px;

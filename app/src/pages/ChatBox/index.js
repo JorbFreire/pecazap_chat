@@ -43,6 +43,12 @@ const ChatBox = () => {
             type="text"
             placeholder="Digite sua mensagem..."
           />
+
+          <button></button>
+          <button></button>
+          <button></button>
+          <button></button>
+
         </form>
 
       </div>

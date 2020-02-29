@@ -2,15 +2,70 @@
   display: flex;
   flex-direction: column;
 }
-
-.ContactsBar .contactsManagement input {
-  width: 280px;
-  height: 38px;
+.ContactsBar .contactsManagement {
+  width: 280px;  
 
   margin-left: 15px;
   margin-right: 15px;
+}
+
+.contactsManagement p {
+  color: #ffffff;
+}
+
+.ContactsBar .contactsManagement input {
+  width: 100%;
+  height: 38px;
 
   background: rgba(255, 255, 255, 0.15);
   border: 1px solid #158477;
   border-radius: 4px;
+
+  text-align: right;
+  font-family: FontAwesome;  
+  font-size: 15px;
+  
+  padding: 11px;
+}
+.contactsManagement ::-webkit-input-placeholder {
+  color: #ffffff;
+}
+.contactsManagement :-moz-placeholder {
+  color: #ffffff;
+}
+.contactsManagement ::-moz-placeholder {
+  color: #ffffff;  
+}
+.contactsManagement :-ms-input-placeholder {  
+  color: #ffffff;  
+}
+
+.contactsManagement .filter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  font-size: 12px;
+  margin: 10px 0 10px 0;
+}
+
+.contactsManagement .filter button {
+  background: none;
+  border: 0;
+
+  height: 38px;
+  width: 38px;
+}
+
+.contactsManagement .filter .arrow {
+  font-family: FontAwesome;
+  color: rgba(0, 0, 0, 0.2);
+
+  margin-left: 1.5px;
+}
+
+.contactsManagement .filter .cross {
+  font-family: FontAwesome;
+  color: #ffffff;
+  margin-left: auto;
 }

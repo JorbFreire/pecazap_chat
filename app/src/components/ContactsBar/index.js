@@ -16,17 +16,28 @@ const ContactsBar = ()  => {
   
   return (
     <div className="ContactsBar">
-      <div className="user">
+      <section className="user">
         <UserModel 
           name={userData.user_name}
           company={userData.company}
           profile_photo_url={userData.profile_photo_url}
         />
-      </div>
-      <div className="searchForContacts">
-        <input type="text"/>
-      </div>
-      <div className="contacts">
+      </section>
+      <section className="contactsManagement">
+        <input 
+          type="text"
+          placeholder=""
+        />
+        
+        <div className="filter">
+          <p>EM ANDAMENTO </p>
+
+          <button className="arrow">  </button>
+          <button className="cross">  </button>
+        </div>
+      </section>
+
+      <section className="contacts">
         {
           contactsListData.map(e => (
             <UserModel 
@@ -36,7 +47,7 @@ const ContactsBar = ()  => {
             />
           ))
         }
-      </div>
+      </section>
     </div>
   );
 }

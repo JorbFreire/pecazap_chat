@@ -6,12 +6,12 @@ const ContactInfoModel = () => {
   return (
     <div className="ContactInfo">
       <UserModel />
-      <div className="tools">
+      <div className="info">
         
         <section className="buttons">
-          <button>EDIT</button>
+          <button className="edit"></button>
           <div />
-          <button>DELETE</button>
+          <button className="delete"></button>
         </section>
 
         <section className="lastConversations">

@@ -28,9 +28,33 @@
 }
 
 .ChatBox .newMessage input {
-  width: 478px;
   height: 16px;
+  width: 60%;
+  max-width: 478px;
 
   margin: 24px 30px 24px 30px;
   border: 0;
+}
+.ChatBox .newMessage ::-webkit-input-placeholder {
+  color: #999999;
+}
+.ChatBox .newMessage :-moz-placeholder {
+  color: #999999;
+}
+.ChatBox .newMessage ::-moz-placeholder {
+  color: #999999;  
+}
+.ChatBox .newMessage :-ms-input-placeholder {  
+  color: #999999;  
+}
+
+.ChatBox .newMessage button {
+  height: 38px;
+  width: 38px;
+  background: none;
+  border: 0;
+
+  font-family: FontAwesome;
+  font-size: 20px;
+  color: #A7B6C2;
 }
