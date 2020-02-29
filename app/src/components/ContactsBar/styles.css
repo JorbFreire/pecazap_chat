@@ -59,13 +59,16 @@
 
 .contactsManagement .filter .arrow {
   font-family: FontAwesome;
-  color: rgba(0, 0, 0, 0.2);
+  font-size: 15px;
 
+  color: rgba(0, 0, 0, 0.2);
   margin-left: 1.5px;
 }
 
 .contactsManagement .filter .cross {
   font-family: FontAwesome;
+  font-size: 20px;
+  
   color: #ffffff;
   margin-left: auto;
 }
