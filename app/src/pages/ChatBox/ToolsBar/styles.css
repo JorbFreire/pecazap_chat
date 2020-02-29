@@ -34,10 +34,10 @@
   color: #A7B6C2;  
 }
 
-.ToolsBar div {
-
+.ToolsBar button:first-of-type {
+  margin-left: auto;
   /*width: calc( 100% - 704px ); */
-  min-width: 20px;
+  /* min-width: 20px; */
 }
 
 .ToolsBar button {
