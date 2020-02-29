@@ -4,6 +4,7 @@ import UserModel from '../UserModel';
 import api from '../../services/api.json';
 
 import './styles.css';
+import './attendantUser.css';
 
 const ContactsBar = ()  => {
   const [userData, setUserData] = useState({});
@@ -16,13 +17,15 @@ const ContactsBar = ()  => {
   
   return (
     <div className="ContactsBar">
-      <section className="user">
+      <section className="attendantUser">
         <UserModel 
           name={userData.user_name}
           company={userData.company}
           profile_photo_url={userData.profile_photo_url}
         />
+        <button className="arrow">  </button>
       </section>
+      
       <section className="contactsManagement">
         <input 
           type="text"

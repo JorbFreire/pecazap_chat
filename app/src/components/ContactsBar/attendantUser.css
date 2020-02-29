@@ -1,0 +1,25 @@
+.ContactsBar .attendantUser {
+  display: flex;
+  flex-direction: row;
+  
+  align-items: center;
+}
+
+.ContactsBar .attendantUser .arrow {
+  background: none;
+  height: 38px;
+  width: 38px;
+  border: 0;
+
+  font-family: FontAwesome;
+  font-size: 15px;
+
+  color: rgba(0, 0, 0, 0.2);
+  margin-left: auto;
+  margin-right: 15px;
+}
+
+.ContactsBar .attendantUser .User .UserProfilePhoto {
+  height: 32px;
+  width: 32px;
+}

@@ -4,17 +4,19 @@
 
   display: flex;
   flex-direction: row;
+
+  align-items: center;
 }
 
 .User .UserProfilePhoto {
   width: 48px;
   height: 48px;
 
-  margin-left: 15px;
+  margin-left: 5px;
 }
 
 .User .UserInfo {
-  margin-left: 10px;
+  margin: 10px;
 
   display: flex;
   flex-direction: column;
