@@ -1,7 +1,22 @@
-.CommunicationChannels {
+.communicationChannels {
   width: 64px;
 
   background: #F8FAFC;
   box-shadow: 2px 0px 2px rgba(0, 0, 0, 0.04);
   border-radius: 20px 0px 0px 0px;
+}
+.communicationChannels a .channel {
+  background: none;
+  color: #00A7CF;
+
+  height: 64px;
+  width: 64px;
+
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.communicationChannels a #whatsApp {
+  background-color: #25D366;
 }
