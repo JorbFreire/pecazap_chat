@@ -10,31 +10,91 @@
       "user_id": 1,
       "user_name": "João da Silva",
       "company": "ACME INC",
-      "profile_photo_url": "https://i.imgur.com/zHGqdSZ.png"
+      "profile_photo_url": "https://i.imgur.com/zHGqdSZ.png",
+      "last_talks": [
+        {
+          "channel": "whatsApp",
+          "date": "xx/xx/xxxx"
+        }
+      ],
+      "observations": "observations",
+      "channels": {
+        "whatsApp": "xx (xx) xxxx-xxxx",
+        "email": "x@x.x",
+        "skype": "@xx"
+      }
     },
     {
       "user_id": 2,
       "user_name": "Nome do Usuário",
       "company": "EMPRESA",
-      "profile_photo_url": "https://i.imgur.com/zHGqdSZ.png"
+      "profile_photo_url": "https://i.imgur.com/zHGqdSZ.png",
+      "last_talks": [
+        {
+          "channel": "whatsApp",
+          "date": "xx/xx/xxxx"
+        }
+      ],
+      "observations": "observations",
+      "channels": {
+        "whatsApp": "xx (xx) xxxx-xxxx",
+        "email": "x@x.x",
+        "skype": "@xx"
+      }
     },
     {
       "user_id": 3,
       "user_name": "Nome do Usuário",
       "company": "EMPRESA",
-      "profile_photo_url": "https://i.imgur.com/zHGqdSZ.png"
+      "profile_photo_url": "https://i.imgur.com/zHGqdSZ.png",
+      "last_talks": [
+        {
+          "channel": "whatsApp",
+          "date": "xx/xx/xxxx"
+        }
+      ],
+      "observations": "observations",
+      "channels": {
+        "whatsApp": "xx (xx) xxxx-xxxx",
+        "email": "x@x.x",
+        "skype": "@xx"
+      }
     },
     {
       "user_id": 4,
       "user_name": "Nome do Usuário",
       "company": "EMPRESA",
-      "profile_photo_url": "https://i.imgur.com/zHGqdSZ.png"
+      "profile_photo_url": "https://i.imgur.com/zHGqdSZ.png",
+      "last_talks": [
+        {
+          "channel": "whatsApp",
+          "date": "xx/xx/xxxx"
+        }
+      ],
+      "observations": "observations",
+      "channels": {
+        "whatsApp": "xx (xx) xxxx-xxxx",
+        "email": "x@x.x",
+        "skype": "@xx"
+      }
     },
     {
       "user_id": 5,
       "user_name": "Nome do Usuário",
       "company": "EMPRESA",
-      "profile_photo_url": "https://i.imgur.com/zHGqdSZ.png"
+      "profile_photo_url": "https://i.imgur.com/zHGqdSZ.png",
+      "last_talks": [
+        {
+          "channel": "whatsApp",
+          "date": "xx/xx/xxxx"
+        }
+      ],
+      "observations": "observations",
+      "channels": {
+        "whatsApp": "xx (xx) xxxx-xxxx",
+        "email": "x@x.x",
+        "skype": "@xx"
+      }
     }
   ],
   "chat": [
