@@ -1,20 +1,21 @@
 import React from 'react';
 import api from '../../../services/api.json';
 
+import check from '../../../assets/icons/check.png';
 import './styles.css';
 import './stylesForSend_by.css'
 
 const Message = (props) => {
   
-  function howSentThisMessage(client_id){
+  const howSentThisMessage = (client_id) => {
     let user;
     switch (props.send_by){
       case "attendant":{
-        user = api.user.user_name;
+        user = api.user;
         break;
       }
       case "client": {
-        user = api.contacts[client_id].user_name;
+        user = api.contacts[client_id];
         break;
       }
       default: {
@@ -32,14 +33,14 @@ const Message = (props) => {
 
           <section className="aboutThisMessage">
 
-            <img src="" alt="profilePhoto"/>
+            <img src={howSentThisMessage(props.client_id).profile_photo_url} alt="profilePhoto"/>
 
             <span>
-              <strong>{ howSentThisMessage(props.client_id) }</strong>
-              <time> - {props.date} {props.time} </time> 
+              <strong> { howSentThisMessage(props.client_id).user_name } </strong>
+              <time> {props.date} {props.time} </time> 
             </span>
             
-            <img src="" alt="checkread"/>
+            <img src={check} alt="checkread"/>
           
           </section>
 

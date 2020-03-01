@@ -1,11 +1,23 @@
-import React from 'react';
+import React, { useState, useEffect} from 'react';
 import UserModel from '../UserModel';
+import api from '../../services/api.json';
 import './styles.css';
 
 const ContactInfoModel = () => {
+  const [userData, setUserData] = useState({});
+
+  useEffect ( () => {
+    setUserData(api.contacts[0]);
+  }, [] );
+
   return (
     <div className="ContactInfo">
-      <UserModel />
+      <UserModel
+        name={userData.user_name}
+        company={userData.company}
+        profile_photo_url={userData.profile_photo_url}
+      />
+
       <div className="info">
         
         <section className="buttons">
