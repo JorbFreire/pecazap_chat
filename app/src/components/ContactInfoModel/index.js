@@ -1,21 +1,63 @@
 import React, { useState, useEffect} from 'react';
 import UserModel from '../UserModel';
 import api from '../../services/api.json';
+
+import mailIcon from '../../assets/icons/mail.png';
+import skypeIcon from '../../assets/icons/skype.png';
+import whatsAppIcon from '../../assets/icons/whatsApp.png';
+import phoneIcon from '../../assets/icons/phone.png';
+import messageIcon from '../../assets/icons/message.png';
+
 import './styles.css';
 
 const ContactInfoModel = () => {
-  const [userData, setUserData] = useState({});
+  const [thisContactData, setThisContactData] = useState({});
+  const [lastTalks, setLastTalks] = useState([]);
+
+  function findChannelIcon(channel) {
+    let channelIcon;
+    
+    switch (channel){
+      case "mail": {
+        channelIcon = mailIcon;
+        break
+      }
+      case "skype": {
+        channelIcon = skypeIcon;
+        break
+      }
+      case "whatsApp": {
+        channelIcon = whatsAppIcon;
+        break
+      }
+      case "phone": {
+        channelIcon = phoneIcon;
+        break
+      }
+      case "message": {
+        channelIcon = messageIcon;
+        break
+      }
+      default: {
+        break;
+      }
+    }
+
+    return channelIcon;
+  }
 
   useEffect ( () => {
-    setUserData(api.contacts[0]);
+    setThisContactData(api.contacts[0]);
+    setLastTalks(api.contacts[0].last_talks)
+    console.log(thisContactData);
   }, [] );
 
   return (
     <div className="ContactInfo">
       <UserModel
-        name={userData.user_name}
-        company={userData.company}
-        profile_photo_url={userData.profile_photo_url}
+        name={thisContactData.user_name}
+        company={thisContactData.company}
+        profile_photo_url={thisContactData.profile_photo_url}
       />
 
       <div className="info">
@@ -28,6 +70,14 @@ const ContactInfoModel = () => {
 
         <section className="lastConversations">
           <span>ÚLTIMAS CONVERSAS</span>
+          {lastTalks.map(e => (
+            <>
+
+              <img src={findChannelIcon(e.channel)} alt="icon"/>
+              <p>{e.date}</p>
+              <p>(x dias atrás)</p>
+            </>
+          ))}
           <p>xx/xx/xxxx (xx dias atrás) </p>
           <p>xx/xx/xxxx (xx dias atrás) </p>
           <p>xx/xx/xxxx (xx dias atrás) </p>

@@ -13,6 +13,10 @@
       "profile_photo_url": "https://i.imgur.com/zHGqdSZ.png",
       "last_talks": [
         {
+          "channel": "message",
+          "date": "xx/xx/xxxx"
+        },
+        {
           "channel": "whatsApp",
           "date": "xx/xx/xxxx"
         }
