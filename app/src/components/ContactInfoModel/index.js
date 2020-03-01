@@ -72,7 +72,6 @@ const ContactInfoModel = () => {
           <span>ÚLTIMAS CONVERSAS</span>
           {lastTalks.map(e => (
             <>
-
               <img src={findChannelIcon(e.channel)} alt="icon"/>
               <p>{e.date}</p>
               <p>(x dias atrás)</p>
