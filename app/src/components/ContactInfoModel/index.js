@@ -79,13 +79,11 @@ const ContactInfoModel = () => {
             </>
           ))}
           <p>xx/xx/xxxx (xx dias atrás) </p>
-          <p>xx/xx/xxxx (xx dias atrás) </p>
-          <p>xx/xx/xxxx (xx dias atrás) </p>
         </section>
 
         <section className="observations">
           <span>OBSERVAÇÕES</span>
-          <p></p>
+          <p>{thisContactData.observations}</p>
         </section>
       
       </div>
