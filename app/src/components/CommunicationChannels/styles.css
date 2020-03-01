@@ -20,3 +20,13 @@
 .communicationChannels a #whatsApp {
   background-color: #25D366;
 }
+
+.communicationChannels a #message img {
+  width: 24px;
+  height: 24px;
+}
+
+.communicationChannels a #phone img {
+  width: 24px;
+  height: 24px;
+}
