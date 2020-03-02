@@ -71,18 +71,26 @@ const ContactInfoModel = () => {
         <section className="lastConversations">
           <span>ÚLTIMAS CONVERSAS</span>
           {lastTalks.map(e => (
-            <>
+            <div className="lastConversationInfo">
               <img src={findChannelIcon(e.channel)} alt="icon"/>
-              <p>{e.date}</p>
-              <p>(x dias atrás)</p>
-            </>
+              <p>{e.date} (x dias atrás)</p>
+            </div>
           ))}
-          <p>xx/xx/xxxx (xx dias atrás) </p>
         </section>
 
         <section className="observations">
           <span>OBSERVAÇÕES</span>
           <p>{thisContactData.observations}</p>
+        </section>
+
+        <section className="availableChannels">
+          <div className="channel">
+            <img src="" alt=""/>
+            <div>
+              <span> SPAN </span>
+              <p> p </p>
+            </div>
+          </div>
         </section>
       
       </div>

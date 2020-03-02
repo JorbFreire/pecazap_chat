@@ -59,6 +59,18 @@
   width: 10px;
 }
 
+.info .lastConversations .lastConversationInfo{
+  display: flex;
+  flex-direction: row;
+
+  margin-top: 10px;
+}
+
+.info .lastConversations img {
+  width: 16px;
+  margin-right: 8px;
+}
+
 .info .lastConversations p {
   font-size: 15px;
 }
@@ -67,4 +79,23 @@
   color: #79accd;
   font-weight: bold;
   font-size: 12px;
+}
+
+.info .availableChannels .channel{
+  display: flex;
+  flex-direction: row;
+}
+
+.availableChannels .channel div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.availableChannels .channel img {
+  width: 24px;
+  margin-right: 16px;
+
+  align-self: center;
+  background-color: #222222;
 }
