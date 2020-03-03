@@ -25,7 +25,6 @@
 #attendant .aboutThisMessage {
   display: flex;
   flex-direction: row-reverse;
-  background-color: red;
 }
 
 #attendant .arrowAlign {
