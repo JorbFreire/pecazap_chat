@@ -3,14 +3,14 @@
     "user_id": 0,
     "user_name": "Carlos Corrêa",
     "company": "Premium peças",
-    "profile_photo_url": "https://i.imgur.com/zHGqdSZ.png"
+    "profile_photo_url": "https://i.imgur.com/zDUBhAq.jpg"
   },
   "contacts": [
     {
       "user_id": 1,
       "user_name": "João da Silva",
       "company": "ACME INC",
-      "profile_photo_url": "https://i.imgur.com/zHGqdSZ.png",
+      "profile_photo_url": "https://i.imgur.com/n7ogsmX.jpg",
       "last_talks": [
         {
           "channel": "message",
@@ -32,7 +32,7 @@
       "user_id": 2,
       "user_name": "Nome do Usuário",
       "company": "EMPRESA",
-      "profile_photo_url": "https://i.imgur.com/zHGqdSZ.png",
+      "profile_photo_url": "https://i.imgur.com/QjZwpGX.png",
       "last_talks": [
         {
           "channel": "whatsApp",
@@ -50,7 +50,7 @@
       "user_id": 3,
       "user_name": "Nome do Usuário",
       "company": "EMPRESA",
-      "profile_photo_url": "https://i.imgur.com/zHGqdSZ.png",
+      "profile_photo_url": "https://i.imgur.com/QjZwpGX.png",
       "last_talks": [
         {
           "channel": "whatsApp",
@@ -68,7 +68,7 @@
       "user_id": 4,
       "user_name": "Nome do Usuário",
       "company": "EMPRESA",
-      "profile_photo_url": "https://i.imgur.com/zHGqdSZ.png",
+      "profile_photo_url": "https://i.imgur.com/QjZwpGX.png",
       "last_talks": [
         {
           "channel": "whatsApp",
@@ -86,7 +86,7 @@
       "user_id": 5,
       "user_name": "Nome do Usuário",
       "company": "EMPRESA",
-      "profile_photo_url": "https://i.imgur.com/zHGqdSZ.png",
+      "profile_photo_url": "https://i.imgur.com/QjZwpGX.png",
       "last_talks": [
         {
           "channel": "whatsApp",
