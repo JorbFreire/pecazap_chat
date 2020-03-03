@@ -21,6 +21,7 @@
   color: #79accd;
   font-weight: bold;
   font-size: 12px;
+  text-transform: uppercase;
 }
 .ContactInfo .info {
   display: flex;
@@ -93,7 +94,6 @@
   margin-right: 16px;
   
   align-self: center;
-  background-color: #222222;
 }
 
 .availableChannels .channel div {

@@ -14,6 +14,7 @@ import './styles.css';
 const ContactInfoModel = () => {
   const [thisContactData, setThisContactData] = useState({});
   const [lastTalks, setLastTalks] = useState([]);
+  const [channels, setChannels] = useState([]);
 
   function findChannelIcon(channel) {
     let channelIcon;
@@ -50,6 +51,7 @@ const ContactInfoModel = () => {
   useEffect ( () => {
     setThisContactData(api.contacts[0]);
     setLastTalks(api.contacts[0].last_talks)
+    setChannels(api.contacts[0].channels);
     console.log(thisContactData);
   }, [] );
 
@@ -85,13 +87,17 @@ const ContactInfoModel = () => {
         </section>
 
         <section className="availableChannels">
-          <div className="channel">
-            <img src="" alt=""/>
-            <div>
-              <span> SPAN </span>
-              <p> p </p>
-            </div>
-          </div>
+          {
+            channels.map(e => (
+              <div className="channel">
+                <img src={findChannelIcon(e.name)} alt=""/>
+                <div>
+                  <span> {e.name} </span>
+                  <p> {e.endress} </p>
+                </div>
+              </div>
+            )) 
+          }
         </section>
       
       </div>
