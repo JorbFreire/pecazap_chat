@@ -1,3 +1,8 @@
+#client p {
+  background-color: #ffffff;
+  border-radius: 0px 10px 10px 10px;
+}
+
 #client .arrow {
     position: relative;
     top: 0; 
@@ -12,15 +17,15 @@
   flex-direction: row;
 }
 
-#client p {
-  background-color: #ffffff;
-  border-radius: 0px 10px 10px 10px;
+#attendant p {
+  background-color: #d1fadf;
+  border-radius: 10px 0px 10px 10px;
 }
-
 
 #attendant .aboutThisMessage {
   display: flex;
   flex-direction: row-reverse;
+  background-color: red;
 }
 
 #attendant .arrowAlign {
@@ -42,7 +47,4 @@
   flex-direction: row-reverse;
 }
 
-#attendant p {
-  background-color: #d1fadf;
-  border-radius: 10px 0px 10px 10px;
-}
+

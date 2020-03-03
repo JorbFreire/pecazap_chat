@@ -38,6 +38,7 @@ const Message = (props) => {
               alt="profilePhoto"
               className="profilePhoto"
             />
+            <div className="badMargin" />
             <span>
               <strong> { howSentThisMessage(props.client_id).user_name } - </strong> 
               <time>{props.date} {props.time}</time> 
