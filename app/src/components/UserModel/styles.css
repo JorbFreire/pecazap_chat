@@ -1,5 +1,4 @@
 .User {
-  background: rgba(0, 0, 0, 0.08);;
   padding: 10px;
 
   display: flex;
@@ -13,6 +12,7 @@
   height: 48px;
 
   margin-left: 5px;
+  border-radius: 50%;
 }
 
 .User .UserInfo {

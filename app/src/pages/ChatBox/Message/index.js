@@ -33,11 +33,12 @@ const Message = (props) => {
 
           <section className="aboutThisMessage">
 
-            <img 
-              src={howSentThisMessage(props.client_id).profile_photo_url}
-              alt="profilePhoto"
-              className="profilePhoto"
-            />
+              <img 
+                src={howSentThisMessage(props.client_id).profile_photo_url}
+                alt="profilePhoto"
+                className="profilePhoto"
+              />
+
             <div className="badMargin" />
             <span>
               <strong> { howSentThisMessage(props.client_id).user_name } - </strong> 
