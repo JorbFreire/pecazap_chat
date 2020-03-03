@@ -3,6 +3,7 @@ import UserModel from '../UserModel';
 
 import api from '../../services/api.json';
 
+import balloons from '../../assets/balloons.png';
 import './styles.css';
 import './attendantUser.css';
 
@@ -51,6 +52,11 @@ const ContactsBar = ()  => {
           ))
         }
       </section>
+
+      <img
+        className="balloons"
+        src={balloons} alt=""
+      />
     </div>
   );
 }

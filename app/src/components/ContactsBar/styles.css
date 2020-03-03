@@ -72,3 +72,10 @@
   color: #ffffff;
   margin-left: auto;
 }
+
+.ContactsBar .balloons {
+  position: absolute;
+  height: 327.7px;
+
+  bottom: 84.3px;
+}
