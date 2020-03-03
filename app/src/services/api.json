@@ -21,7 +21,7 @@
           "date": "xx/xx/xxxx"
         }
       ],
-      "observations": "observations about his user",
+      "observations": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci, lacus, et potenti nisl viverra a, feugiat. Eget ultrices elit faucibus arcu volutpat vulputate",
       "channels": [
         {"name": "whatsApp", "endress": "55 (19) 99127-0611"},
         {"name": "mail", "endress": "daniel@wezen.com.br"},
@@ -39,7 +39,7 @@
           "date": "xx/xx/xxxx"
         }
       ],
-      "observations": "observations about his user",
+      "observations": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci, lacus, et potenti nisl viverra a, feugiat. Eget ultrices elit faucibus arcu volutpat vulputate",
       "channels": {
         "whatsApp": "xx (xx) xxxx-xxxx",
         "email": "x@x.x",
