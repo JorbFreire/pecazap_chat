@@ -16,6 +16,9 @@ const UserModel = (props) => {
           <sub>{props.company}</sub>
         </p>
       </div>
+      <div className="notifications">
+        <p></p>
+      </div>
     </div>
   )
 }
