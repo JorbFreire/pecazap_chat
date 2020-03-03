@@ -39,9 +39,8 @@ const Message = (props) => {
               className="profilePhoto"
             />
             <span>
-              <strong> { howSentThisMessage(props.client_id).user_name } </strong> 
-              <span> - </span>
-              <time> {props.date} {props.time} </time> 
+              <strong> { howSentThisMessage(props.client_id).user_name } - </strong> 
+              <time>{props.date} {props.time}</time> 
             </span>
             <img 
               src={check}

@@ -23,11 +23,6 @@
   flex-direction: row-reverse;
 }
 
-#attendant .aboutThisMessage span {
-  display: flex;
-  flex-direction: row-reverse;
-}
-
 #attendant .arrowAlign {
   display: flex;
   flex-direction: row-reverse;

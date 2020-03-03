@@ -23,6 +23,14 @@ const ChatBox = () => {
 
         <ToolsBar />
         <div className="scroll">
+          <header className="lastMessageDate">
+            <div className="line" />
+            <div className="text">  
+              <p>Atendimento finalizado em <strong> 07/10/2019</strong> </p>
+            </div>
+            <div className="line" />
+          </header>
+
           <section cclassName="messages">
             {
               messages.map(e => (
@@ -45,10 +53,12 @@ const ChatBox = () => {
           />
 
           {/* icons */}
-          <button></button>
-          <button></button>
-          <button></button>
-          <button></button>
+          <section className="actions">
+            <button></button>
+            <button></button>
+            <button></button>
+            <button></button>
+          </section>
 
         </form>
 

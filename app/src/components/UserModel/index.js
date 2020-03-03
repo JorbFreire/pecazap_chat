@@ -12,7 +12,9 @@ const UserModel = (props) => {
       />
       <div className="UserInfo">
         <p>{props.name}</p>
-        <sub>{props.company}</sub>
+        <p>
+          <sub>{props.company}</sub>
+        </p>
       </div>
     </div>
   )

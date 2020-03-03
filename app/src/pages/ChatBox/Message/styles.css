@@ -25,7 +25,6 @@
 
 .aboutThisMessage span {
   color: #636466;
-  
 }
 
 .aboutThisMessage .profilePhoto {
@@ -42,10 +41,10 @@
 
 .messageBlock .content p {
   max-width: 600px;
-
+  
   box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
   padding: 20px;
-
-
+  
+  line-height: 24px;
   font-size: 15px;
 }

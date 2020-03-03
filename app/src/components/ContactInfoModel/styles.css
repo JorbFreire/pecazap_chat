@@ -17,6 +17,11 @@
   color: #79accd;
 }
 
+.ContactInfo .info span {
+  color: #79accd;
+  font-weight: bold;
+  font-size: 12px;
+}
 .ContactInfo .info {
   display: flex;
   flex-direction: column;
@@ -42,7 +47,7 @@
   box-sizing: border-box;
   box-shadow: 0px 1px 0px #E5E5E5;
   border-radius: 4px;
-
+  
   font-family: FontAwesome;
   font-size: 15px;
 }
@@ -67,23 +72,28 @@
 }
 
 .info .lastConversations img {
-  width: 16px;
+  max-width: 16px;
+  max-height: 16px;
   margin-right: 8px;
 }
 
 .info .lastConversations p {
   font-size: 15px;
+  line-height: 18px;
 }
 
-.info span {
-  color: #79accd;
-  font-weight: bold;
-  font-size: 12px;
-}
 
 .info .availableChannels .channel{
   display: flex;
   flex-direction: row;
+}
+
+.availableChannels .channel img {
+  width: 24px;
+  margin-right: 16px;
+  
+  align-self: center;
+  background-color: #222222;
 }
 
 .availableChannels .channel div {
@@ -92,10 +102,6 @@
   margin-bottom: 20px;
 }
 
-.availableChannels .channel img {
-  width: 24px;
-  margin-right: 16px;
-
-  align-self: center;
-  background-color: #222222;
+.availableChannels .channel p {
+  font-size: 15px;
 }

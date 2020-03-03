@@ -1,12 +1,13 @@
 import React, { useState, useEffect} from 'react';
 import UserModel from '../UserModel';
 import api from '../../services/api.json';
+import './clientUser.css';
 
-import mailIcon from '../../assets/icons/mail.png';
-import skypeIcon from '../../assets/icons/skype.png';
-import whatsAppIcon from '../../assets/icons/whatsApp.png';
-import phoneIcon from '../../assets/icons/phone.png';
-import messageIcon from '../../assets/icons/message.png';
+import mailIcon from '../../assets/icons/grey/mail.png';
+import skypeIcon from '../../assets/icons/grey/skype.png';
+import whatsAppIcon from '../../assets/icons/grey/whatsApp.png';
+import phoneIcon from '../../assets/icons/grey/phone.png';
+import messageIcon from '../../assets/icons/grey/message.png';
 
 import './styles.css';
 
@@ -76,7 +77,7 @@ const ContactInfoModel = () => {
               <p>{e.date} (x dias atrás)</p>
             </div>
           ))}
-        </section>
+        </section> 
 
         <section className="observations">
           <span>OBSERVAÇÕES</span>
