@@ -79,3 +79,8 @@
 
   bottom: 84.3px;
 }
+
+.ContactsBar .contacts .User:first-of-type{
+  background-color: rgba(0, 0, 0, 0.08);
+}
+
