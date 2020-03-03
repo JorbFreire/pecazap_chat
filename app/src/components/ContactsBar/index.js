@@ -6,6 +6,7 @@ import api from '../../services/api.json';
 import balloons from '../../assets/balloons.png';
 import './styles.css';
 import './attendantUser.css';
+import './fistContact.css';
 
 const ContactsBar = ()  => {
   const [userData, setUserData] = useState({});

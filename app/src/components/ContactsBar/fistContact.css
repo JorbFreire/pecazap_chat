@@ -1,0 +1,23 @@
+.ContactsBar .contacts .User:first-of-type{
+  background-color: rgba(0, 0, 0, 0.08);
+
+}
+.contacts .User:first-of-type .notifications {
+  text-align: center;
+
+  margin-left: auto;
+  margin-right: 24px;
+  width: 20px;
+  height: 20px;
+
+  font-size: 10px;
+  color: #ffffff;
+
+  background: #E33E1A;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  border-radius: 50%;
+}
+
+.contacts .User:first-of-type .notifications p {
+  margin: 2px 0;
+}
